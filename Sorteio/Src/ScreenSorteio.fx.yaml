@@ -1,0 +1,46 @@
+ScreenSorteio As screen:
+    Fill: =RGBA(29, 29, 29, 1)
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    lblDescricao As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(197, 203, 207, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =110
+        Size: =21
+        Text: ="Sorteia um Número de 0 a 10"
+        Width: =640
+        ZIndex: =1
+
+    btnSorteio As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: |-
+            =UpdateContext({locNumeroSorteado: RandBetween(0, 10)})
+        Size: =24
+        Text: ="Sortear"
+        Width: =280
+        X: =180
+        Y: =369
+        ZIndex: =2
+
+    lblResposta As label:
+        BorderColor: =RGBA(197, 203, 207, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =70
+        Size: =21
+        Text: |-
+            ="Número sorteado: " & locNumeroSorteado
+        Width: =560
+        X: =40
+        Y: =674
+        ZIndex: =3
+

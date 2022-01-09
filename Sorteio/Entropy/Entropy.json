@@ -1,0 +1,43 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "btnSorteio": 5,
+    "lblDescricao": 4,
+    "lblResposta": 6,
+    "ScreenSorteio": 3
+  },
+  "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/09/2022 18:29:27",
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 1,
+    "label": 0
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "btnSorteio": 1,
+    "lblDescricao": 0,
+    "lblResposta": 2,
+    "ScreenSorteio": 0
+  },
+  "ResourcesJsonIndices": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0648152,
+    "ControlCount": {
+      "button": 1,
+      "label": 2,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.3654853,
+    "ErrorCount": 0
+  }
+}
